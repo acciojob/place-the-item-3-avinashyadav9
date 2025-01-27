@@ -1,2 +1,16 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next row if they exceed the container's width */
+    justify-content: space-around; /* Evenly spaces the items in the row */
+    gap: 10px; /* Adds some space between rows (optional) */
+}
 
-/* Your CSS Code here. */
+.item {
+    flex: 0 1 30%; 
+    box-sizing: border-box; 
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
